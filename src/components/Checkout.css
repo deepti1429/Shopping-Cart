@@ -1,0 +1,31 @@
+.checkout{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.checkout .checkout_items h2{
+    margin: 10px 0px 20px 20px;
+}
+.checkout_items{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 20px;
+}
+.checkout_product{
+    display: flex;
+    width: 80%;
+}
+.checkout_product img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.checkout_product .product_info{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.checkout_items .checkout_product .product_info button{
+    background-color: orange;
+}

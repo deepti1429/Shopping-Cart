@@ -1,0 +1,9 @@
+.home {
+    display: flex;
+   justify-content: center;
+  }
+  
+  .home div {
+    flex: 1;
+  }
+  
